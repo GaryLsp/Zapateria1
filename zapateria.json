@@ -1,0 +1,32 @@
+[
+    {
+        "fecha": "2024-09-19",
+        "Descripcion": "Zapato de cuero clásico",
+        "talla": "26.5",
+        "precio": "$75.99"
+    },
+    {
+        "fecha": "2024-09-19",
+        "Descripcion": "Zapatillas deportivas running",
+        "talla": "22",
+        "precio": "$89.50"
+    },
+    {
+        "fecha": "2024-09-19",
+        "Descripcion": "Botas de montaña impermeables",
+        "talla": "27",
+        "precio": "$120.00"
+    },
+    {
+        "fecha": "2024-09-19",
+        "Descripcion": "Zapatos de tacón elegante",
+        "talla": "24.5",
+        "precio": "$65.75"
+    },
+    {
+        "fecha": "2024-09-19",
+        "Descripcion": "Mocasines de cuero casual",
+        "talla": "24",
+        "precio": "$80.00"
+    }
+]

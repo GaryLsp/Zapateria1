@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatería Tallones</title>
+    <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        margin: 0;
+        padding: 20px;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+        font-size: 3em;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+    }
+    table:hover {
+        transform: scale(1.02);
+    }
+    th, td {
+        padding: 16px 20px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        transition: background 0.3s ease-in-out;
+    }
+    th {
+        background-color: #4caf50;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.1);
+        border-bottom: none;
+    }
+    td {
+        color: #555;
+        font-size: 1.1em;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover td {
+        background-color: #f1f1f1;
+        cursor: pointer;
+    }
+    table thead {
+        box-shadow: 0 4px 2px -2px gray;
+    }
+    tr:first-child th:first-child {
+        border-top-left-radius: 15px;
+    }
+    tr:first-child th:last-child {
+        border-top-right-radius: 15px;
+    }
+    tr:last-child td:first-child {
+        border-bottom-left-radius: 15px;
+    }
+    tr:last-child td:last-child {
+        border-bottom-right-radius: 15px;
+    }
+    @media screen and (max-width: 768px) {
+        table, thead, tbody, th, td, tr {
+            display: block;
+            width: 100%;
+        }
+        tr {
+            margin-bottom: 15px;
+        }
+        th, td {
+            text-align: right;
+            padding-left: 50%;
+            position: relative;
+        }
+        th::before, td::before {
+            position: absolute;
+            left: 15px;
+            text-align: left;
+            font-weight: bold;
+        }
+        th::before {
+            content: attr(data-label);
+        }
+        td::before {
+            content: attr(data-label);
+        }
+    }
+</style>
+
+
+</head>
+<body>
+	<img id="logo" src="logozapateria.jpg" alt="Logo Zapateria">
+    <h1>Zapatería Tallones</h1>
+	<p>Direccion: 1ro de Mayo #100 Col.El Vergel Sn/Telefono: +52 4141055739 
+	</p>
+    <div id="contenido"></div>
+
+    <script src="zapateria.js"></script>
+	<footer>
+	<p>Elaborado por: Edgar Sanchez
+		</p>
+	</footer>
+</body>
+</html>
+<strong></strong>
